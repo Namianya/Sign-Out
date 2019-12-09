@@ -1,6 +1,8 @@
 <template>
     <div>
+        <div class="fixed-top">
         <Navbar></Navbar>
+        </div>
         <SideNav></SideNav>
         <Table></Table>
     </div>
@@ -23,4 +25,5 @@ export default {
 .table{
     margin-left: 250px; 
 }
+
 </style>

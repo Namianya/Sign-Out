@@ -1,5 +1,5 @@
 <template>
-  <mdb-navbar color="white" light>
+  <mdb-navbar color="white"  light>
     <mdb-navbar-brand href="#">
       <img src="../assets/images/ueablogo.png" height="70px">
     </mdb-navbar-brand>

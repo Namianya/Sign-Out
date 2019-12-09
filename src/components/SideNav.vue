@@ -42,7 +42,7 @@ export default {
   width: 250px; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
-//   top: 0; /* Stay at the top */
+  top: 40px; /* Stay at the top */
   left: 0;
   background-color: #bc6802; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
