@@ -225,7 +225,7 @@
   </mdb-tbl>
 </template>
 <script>
-import AprovalModal from './ApprovalModal.vue';
+  import AprovalModal from './ApprovalModal.vue';
   import { mdbTbl, mdbTblHead, mdbTblBody } from 'mdbvue';
   export default {
     name: 'TableResponsivePage',

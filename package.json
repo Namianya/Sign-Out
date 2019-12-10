@@ -16,7 +16,9 @@
   "dependencies": {
     "core-js": "^3.1.2",
     "font-awesome": "^4.7.0",
+    "inspector": "^0.5.0",
     "mdbvue": "^6.1.0",
+    "sweetalert2": "^9.5.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vue-sidebar-menu": "^4.4.3",
