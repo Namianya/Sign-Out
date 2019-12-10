@@ -1,16 +1,15 @@
 <template>
     <div>
-        <div class="fixed-top">
+
         <Navbar></Navbar>
-        </div>
+        <!-- </div> -->
         
         <Table></Table>
     </div>
 </template>
 <script>
-import Table from '../components/Tables.vue'
-
-import Navbar from '../components/Navbar.vue'
+import Table from '../components/Tables.vue';
+import Navbar from '../components/Navbar.vue';
 export default {
     name: 'requests',
     components: {
@@ -23,7 +22,8 @@ export default {
 <style lang="scss">
 .table{
     // margin-left: 250px; 
-    margin-top: 70px;
+    margin-top: 90px;
+    text-align: center
 }
 
 </style>

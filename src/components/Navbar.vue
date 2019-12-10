@@ -1,10 +1,12 @@
 <template>
+<div class="navpadding">
+<div class="fixed-top">
   <mdb-navbar color="white"  light>
-    
-    <mdb-navbar-brand href="#">
-      <img src="../assets/images/ueablogo.png" height="70px">
-    </mdb-navbar-brand>
     <SideNavbar/>
+    <mdb-navbar-brand href="#">
+      <img src="../assets/images/ueablogo.png" height="80px">
+    </mdb-navbar-brand>
+    
     <mdb-navbar-toggler>
       <mdb-navbar-nav>
         
@@ -19,6 +21,8 @@
       <div class="notification"><i class="far fa-bell text-deep-purple"> </i> </div>
     </mdb-navbar-toggler>
   </mdb-navbar>
+</div>
+</div>
 </template>
 <script>
   import SideNavbar from './SideNavBar';
@@ -58,5 +62,8 @@
 .rounded-circle{
   
   margin-right: 10px;
+}
+.navpadding{
+  margin-bottom: 10px
 }
 </style>

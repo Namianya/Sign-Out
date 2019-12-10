@@ -2,7 +2,7 @@
   <div> 
     <!-- Side Modal Top Right -->
     
-    <mdb-btn color="" size="sm" icon="bars" @click.native="modal = true"></mdb-btn>
+    <mdb-btn color="" class="example z-depth-0" size="lg" icon="bars" @click.native="modal = true"></mdb-btn>
     <mdb-modal side position="left" fullHeight direction="left" :show="modal" @close="modal = false">
         <mdb-modal-header >
             <mdb-modal-title>
@@ -23,13 +23,13 @@
             </center>
             
         </mdb-modal-body>
-        <mdb-footer>
+        <footer>
             <center>
             <div>
                  <mdb-btn color="deep-purple" class="md-btn">{{studentButtons.support}}</mdb-btn>
             </div>
             </center>
-        </mdb-footer>
+        </footer>
     </mdb-modal>
   </div>
 </template>
