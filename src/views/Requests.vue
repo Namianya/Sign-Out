@@ -24,6 +24,7 @@ export default {
 <style lang="scss">
 .table{
     margin-left: 250px; 
+    margin-top: 40px;
 }
 
 </style>

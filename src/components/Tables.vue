@@ -2,7 +2,9 @@
   <mdb-tbl responsive autoWidth>
     <mdb-tbl-head>
       <tr>
-        <th>#</th>
+        <th>
+        <AprovalModal></AprovalModal>
+        </th>
         <th>Student Profile</th>
         <th>Date of Depature</th>
         <th>Date of return</th>
@@ -12,7 +14,12 @@
     </mdb-tbl-head>
     <mdb-tbl-body>
       <tr class="table-info">
-        <th scope="row">1</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="1">
+          <label class="custom-control-label" for="1"></label>
+        </div>
+        </th>
         <td>Kate</td>
         <td>Moss</td>
         <td>USA</td>
@@ -21,7 +28,12 @@
        
       </tr>
       <tr>
-        <th scope="row">2</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="2">
+          <label class="custom-control-label" for="2"></label>
+        </div>
+        </th>
         <td>Anna</td>
         <td>Wintour</td>
         <td>United Kingdom</td>
@@ -30,7 +42,12 @@
         
       </tr>
       <tr class="table-info">
-        <th scope="row">3</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="3">
+            <label class="custom-control-label" for="3"></label>
+          </div>
+        </th>
         <td>Tom</td>
         <td>Bond</td>
         <td>Spain</td>
@@ -39,7 +56,12 @@
         
       </tr>
       <tr>
-        <th scope="row">4</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="4">
+            <label class="custom-control-label" for="4"></label>
+          </div>
+        </th>
         <td>Jerry</td>
         <td>Horwitz</td>
         <td>Italy</td>
@@ -48,7 +70,12 @@
         
       </tr>
       <tr class="table-info">
-        <th scope="row">5</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="5">
+            <label class="custom-control-label" for="5"></label>
+          </div>
+        </th>
         <td>Janis</td>
         <td>Joplin</td>
         <td>Poland</td>
@@ -57,7 +84,12 @@
         
       </tr>
       <tr>
-        <th scope="row">6</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="6">
+            <label class="custom-control-label" for="6"></label>
+          </div>
+        </th>
         <td>Gary</td>
         <td>Winogrand</td>
         <td>Germany</td>
@@ -66,7 +98,12 @@
         
       </tr>
       <tr class="table-info">
-        <th scope="row">7</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="7">
+            <label class="custom-control-label" for="7"></label>
+          </div>
+        </th>
         <td>Angie</td>
         <td>Smith</td>
         <td>USA</td>
@@ -74,7 +111,12 @@
         
       </tr>
       <tr>
-        <th scope="row">8</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="8">
+            <label class="custom-control-label" for="8"></label>
+          </div>
+        </th>
         <td>John</td>
         <td>Mattis</td>
         <td>France</td>
@@ -83,7 +125,12 @@
         
       </tr>
       <tr class="table-info">
-        <th scope="row">9</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="9">
+            <label class="custom-control-label" for="9"></label>
+          </div>
+        </th>
         <td>Otto</td>
         <td>Morris</td>
         <td>Germany</td>
@@ -91,34 +138,13 @@
             dolorem provident reprehenderit inventore, perspiciatis autem quam vitae.</td>
         
       </tr>
-      <tr class="table-info">
-        <th scope="row">5</th>
-        <td>Janis</td>
-        <td>Joplin</td>
-        <td>Poland</td>
-        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi quidem quos distinctio, voluptatum corporis odio saepe delectus velit nesciunt eius 
-            perspiciatis quae facere natus earum reiciendis non repellendus nobis.</td>
-        
-      </tr>
       <tr>
-        <th scope="row">6</th>
-        <td>Gary</td>
-        <td>Winogrand</td>
-        <td>Germany</td>
-        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam sapiente voluptates esse hic, quibusdam fuga vitae saepe et iste 
-            debitis sequi facilis aut corrupti nemo ut, omnis quae quod! Fugit?</td>
-        
-      </tr>
-      <tr class="table-info">
-        <th scope="row">7</th>
-        <td>Angie</td>
-        <td>Smith</td>
-        <td>USA</td>
-        <td></td>
-        
-      </tr>
-      <tr>
-        <th scope="row">8</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="10">
+            <label class="custom-control-label" for="10"></label>
+          </div>
+        </th>
         <td>John</td>
         <td>Mattis</td>
         <td>France</td>
@@ -127,7 +153,67 @@
         
       </tr>
       <tr class="table-info">
-        <th scope="row">9</th>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="11">
+            <label class="custom-control-label" for="11"></label>
+          </div>
+        </th>
+        <td>Janis</td>
+        <td>Joplin</td>
+        <td>Poland</td>
+        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi quidem quos distinctio, voluptatum corporis odio saepe delectus velit nesciunt eius 
+            perspiciatis quae facere natus earum reiciendis non repellendus nobis.</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="12">
+            <label class="custom-control-label" for="12"></label>
+          </div>
+        </th>
+        <td>Gary</td>
+        <td>Winogrand</td>
+        <td>Germany</td>
+        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam sapiente voluptates esse hic, quibusdam fuga vitae saepe et iste 
+            debitis sequi facilis aut corrupti nemo ut, omnis quae quod! Fugit?</td>
+        
+      </tr>
+      <tr class="table-info">
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="13">
+            <label class="custom-control-label" for="13"></label>
+          </div>
+        </th>
+        <td>Angie</td>
+        <td>Smith</td>
+        <td>USA</td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="14">
+            <label class="custom-control-label" for="14"></label>
+          </div>
+        </th>
+        <td>John</td>
+        <td>Mattis</td>
+        <td>France</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem voluptates nobis odio nemo illum veritatis dolores expedita, eaque 
+            itaque in recusandae cum amet hic, beatae quo sit blanditiis officiis.</td>
+        
+      </tr>
+      <tr class="table-info">
+        <th scope="row">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="15">
+            <label class="custom-control-label" for="15"></label>
+          </div>
+        </th>
         <td>Otto</td>
         <td>Morris</td>
         <td>Germany</td>
@@ -139,12 +225,14 @@
   </mdb-tbl>
 </template>
 <script>
+import AprovalModal from './ApprovalModal.vue';
   import { mdbTbl, mdbTblHead, mdbTblBody } from 'mdbvue';
   export default {
     name: 'TableResponsivePage',
     components: {
       mdbTbl,
       mdbTblHead,
+      AprovalModal,
       mdbTblBody
     }
   }
